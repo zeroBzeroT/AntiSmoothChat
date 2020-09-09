@@ -1,6 +1,5 @@
 package com.krazzzzymonkey.antismoothchat;
 
-import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
@@ -160,15 +159,12 @@ public final class AntiSmoothChat extends JavaPlugin implements Listener {
     @EventHandler(priority = EventPriority.HIGHEST, ignoreCancelled = true)
     public void onChat(AsyncPlayerChatEvent e) {
 
-        Player sender = e.getPlayer();
-
         // return if the sender isnt online (admin doing voodoo or smthg...)
-        if (getServer().getOnlinePlayers().stream().noneMatch(player -> player.getName().equals(sender.getName()))) {
+        if (getServer().getOnlinePlayers().stream().noneMatch(player -> player.getUniqueId().equals(e.getPlayer().getUniqueId()))) {
             return;
         }
 
         String cleanMessage = replaceBlacklisted(e.getMessage());
-
         if (!e.getMessage().equals(cleanMessage)) {
             e.setMessage(cleanMessage);
         }
