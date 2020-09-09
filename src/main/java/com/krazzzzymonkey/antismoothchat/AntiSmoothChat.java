@@ -172,9 +172,9 @@ public final class AntiSmoothChat extends JavaPlugin implements Listener {
     @Override
     public void onEnable() {
 
-        System.out.println(ConsoleColors.CYAN_BOLD + "===================================" + ConsoleColors.RESET);
-        System.out.println(ConsoleColors.GREEN + "Starting AntiSmooth (╯°□°）╯︵¡ʇɐɥƆ" + ConsoleColors.RESET);
-        System.out.println(ConsoleColors.CYAN_BOLD + "===================================" + ConsoleColors.RESET);
+        System.out.println(ConsoleColors.CYAN_BOLD + "========================" + ConsoleColors.RESET);
+        System.out.println(ConsoleColors.GREEN + "Starting AntiSmoothChat!" + ConsoleColors.RESET);
+        System.out.println(ConsoleColors.CYAN_BOLD + "========================" + ConsoleColors.RESET);
 
         getServer().getPluginManager().registerEvents(this, this);
 
