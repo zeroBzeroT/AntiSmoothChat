@@ -1,4 +1,4 @@
-name: AntiSmoothChat
+name: ${project.name}
 version: ${project.version}
 main: com.krazzzzymonkey.antismoothchat.AntiSmoothChat
-api-version: 1.13
+api-version: 1.16
