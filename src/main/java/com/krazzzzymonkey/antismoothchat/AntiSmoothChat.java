@@ -71,6 +71,34 @@ public final class AntiSmoothChat extends JavaPlugin implements Listener {
         blacklist.put("Ⓨ", "Y");
         blacklist.put("Ⓩ", "Z");
 
+        // Parentheses
+        blacklist.put("⒜", "a");
+        blacklist.put("⒝", "b");
+        blacklist.put("⒞", "c");
+        blacklist.put("⒟", "d");
+        blacklist.put("⒠", "e");
+        blacklist.put("⒡", "f");
+        blacklist.put("⒢", "g");
+        blacklist.put("⒣", "h");
+        blacklist.put("⒤", "i");
+        blacklist.put("⒥", "j");
+        blacklist.put("⒦", "k");
+        blacklist.put("⒧", "l");
+        blacklist.put("⒨", "m");
+        blacklist.put("⒩", "n");
+        blacklist.put("⒪", "o");
+        blacklist.put("⒫", "p");
+        blacklist.put("⒬", "q");
+        blacklist.put("⒭", "r");
+        blacklist.put("⒮", "s");
+        blacklist.put("⒯", "t");
+        blacklist.put("⒰", "u");
+        blacklist.put("⒱", "v");
+        blacklist.put("⒲", "w");
+        blacklist.put("⒳", "x");
+        blacklist.put("⒴", "y");
+        blacklist.put("⒵", "z");
+
         // Smooth Unicode
         blacklist.put("ａ", "a");
         blacklist.put("ｂ", "b");
