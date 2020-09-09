@@ -167,10 +167,9 @@ public final class AntiSmoothChat extends JavaPlugin implements Listener {
             return;
         }
 
-        String rawMessage = e.getMessage();
-        String cleanMessage = replaceBlacklisted(rawMessage);
+        String cleanMessage = replaceBlacklisted(e.getMessage());
 
-        if (!rawMessage.equals(cleanMessage)) {
+        if (!e.getMessage().equals(cleanMessage)) {
             // replace outgoing message
             e.setMessage(cleanMessage);
             getLogger().info("Violation detected: " + e.getMessage());
