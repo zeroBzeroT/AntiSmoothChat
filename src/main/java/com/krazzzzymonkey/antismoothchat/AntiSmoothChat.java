@@ -54,12 +54,12 @@ public final class AntiSmoothChat extends JavaPlugin implements Listener {
         blacklist.put("Ⓗ", "H");
         blacklist.put("Ⓘ", "I");
         blacklist.put("Ⓙ", "J");
-        blacklist.put("ⓚ", "K");
-        blacklist.put("ⓛ", "L");
-        blacklist.put("ⓜ", "M");
-        blacklist.put("ⓝ", "N");
-        blacklist.put("ⓞ", "O");
-        blacklist.put("ⓟ", "P");
+        blacklist.put("Ⓚ", "K");
+        blacklist.put("Ⓛ", "L");
+        blacklist.put("Ⓜ", "M");
+        blacklist.put("Ⓝ", "N");
+        blacklist.put("Ⓞ", "O");
+        blacklist.put("Ⓟ", "P");
         blacklist.put("Ⓠ", "Q");
         blacklist.put("Ⓡ", "R");
         blacklist.put("Ⓢ", "S");
