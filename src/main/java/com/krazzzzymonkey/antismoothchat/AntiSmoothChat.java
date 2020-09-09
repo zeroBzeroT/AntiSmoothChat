@@ -195,11 +195,16 @@ public final class AntiSmoothChat extends JavaPlugin implements Listener {
 
     }
 
-    private String replaceBlacklisted(String message) {
+    private String replaceBlacklisted(final String message) {
+
+        String replacement = message;
+
         for (Map.Entry<String, String> blacklisted : blacklist.entrySet()) {
-            message = message.replaceAll(blacklisted.getKey(), blacklisted.getValue());
+            replacement = replacement.replaceAll(blacklisted.getKey(), blacklisted.getValue());
         }
+
         return message;
+
     }
 
 }
