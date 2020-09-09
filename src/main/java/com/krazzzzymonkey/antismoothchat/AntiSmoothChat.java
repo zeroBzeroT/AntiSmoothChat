@@ -1,8 +1,6 @@
 package com.krazzzzymonkey.antismoothchat;
 
 import org.bukkit.Bukkit;
-import org.bukkit.ChatColor;
-import org.bukkit.Note;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -15,7 +13,7 @@ public final class AntiSmoothChat extends JavaPlugin implements Listener {
     public void onEnable() {
         // Plugin startup logic
         System.out.println(ConsoleColors.CYAN_BOLD + "=================================" + ConsoleColors.RESET);
-        System.out.println(ConsoleColors.GREEN + "Starting AntiSmoothChat!");
+        System.out.println(ConsoleColors.GREEN + "Starting AntiSmoothChat!" + ConsoleColors.RESET);
         System.out.println(ConsoleColors.CYAN_BOLD + "=================================" + ConsoleColors.RESET);
 
     }
