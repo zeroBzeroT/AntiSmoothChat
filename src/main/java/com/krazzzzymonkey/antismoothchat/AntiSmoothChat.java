@@ -180,7 +180,7 @@ public final class AntiSmoothChat extends JavaPlugin implements Listener {
 
     }
 
-    @EventHandler(priority = EventPriority.HIGHEST, ignoreCancelled = true)
+    @EventHandler(priority = EventPriority.LOWEST, ignoreCancelled = true)
     public void onChat(AsyncPlayerChatEvent e) {
 
         // return if the sender isnt online (admin doing voodoo or smthg...)
