@@ -203,7 +203,7 @@ public final class AntiSmoothChat extends JavaPlugin implements Listener {
             replacement = replacement.replaceAll(blacklisted.getKey(), blacklisted.getValue());
         }
 
-        return message;
+        return replacement;
 
     }
 
