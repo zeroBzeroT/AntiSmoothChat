@@ -7,10 +7,10 @@ updates:
       time: "12:00"
       timezone: "Europe/Berlin"
     assignees:
-      - "blockparole"
+      - "nothub"
       - "Krazzzzymonkey"
     reviewers:
-      - "blockparole"
+      - "nothub"
       - "Krazzzzymonkey"
     commit-message:
       prefix: "maven"
